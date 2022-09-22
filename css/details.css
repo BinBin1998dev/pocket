@@ -1,0 +1,53 @@
+.service-item h4  {
+   font-family: montserrat-sb;
+   font-size: 18px;
+   color: #2D3231;
+   margin-top: 16px;
+}
+.service-item p  {
+    font-family: montserrat-r;
+    font-size: 16px;
+    color: #282929;
+    margin-top: 12px;
+    margin-bottom: 16px;
+ }
+ .blog-item__date {
+    margin-bottom: 12px;
+ }
+ .service-btn {
+    width: 110px;
+    height: 45px;
+    background-color: transparent;
+    color: #282929;
+    border: 1px solid #606363;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease 0s;
+    margin-bottom: 30px;
+ }
+ .service-item button {
+    font-family: montserrat-md;
+    font-size: 16px;
+ }
+ .service-item button:hover {
+    background-color: #14B1BB;
+ }
+ .service-item {
+    padding: 0 12px;
+
+ }
+ .service-shadow {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.2);
+ }
+ .service-shadow:hover img {
+    transform: scale(1.1);
+    
+ }
+ .service-shadow img {
+	transition: all 0.5s ease 0s;
+
+ }
+ .img {
+    overflow: hidden;
+ }   
+ 

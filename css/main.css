@@ -1,0 +1,23 @@
+
+@font-face  {
+    font-family: montserrat-r;
+    src: url(../Fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat-md;
+    src: url(../Fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: montserrat-sb;
+    src: url(../Fonts/Montserrat-SemiBold.ttf);
+}
+@font-face {
+    font-family: montserrat-b;
+    src: url(../Fonts/Montserrat-Bold.ttf);
+}
+.mt-70 {
+    margin-top: 70px;
+}
+.mx-12 {
+    margin-left: 12px;
+}

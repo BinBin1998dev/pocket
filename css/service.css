@@ -1,0 +1,88 @@
+.service-singer-item h4 {
+    font-family: montserrat-sb;
+    font-size: 24px;
+    color: #2D3231 ;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.service-singer-item p {
+    font-family: montserrat-sb;
+    font-size: 16px;
+    color: #606363 ;
+    margin:0 0  12px 0;
+    line-height: 30px;
+}
+
+.accordion {    
+    color: #2D3231;
+    background-color: white;
+  }
+  .accordion .container-accordion {
+    position: relative;
+    padding: 0 16px;
+    margin: 16px 0;
+  }
+  
+  /* Positions the labels relative to the .container. Adds padding to the top and bottom and increases font size. Also makes its cursor a pointer */
+  
+  .accordion .label {
+    position: relative;
+    padding: 10px 0;
+    font-size: 24px;
+    font-family: montserrat-sb;
+    color: #2D3231;
+    cursor: pointer;
+  }
+  /* Positions the plus sign 5px from the right. Centers it using the transform property. */
+
+.accordion .label::before {
+    content: '+';
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: -5px;
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+  .container-accordion {
+     box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.25);;
+  }
+  
+  /* Hides the content (height: 0), decreases font size, justifies text and adds transition */
+  
+  .accordion .content {
+    position: relative;
+    background: white;
+    height: 0;
+    font-family: montserrat-r;
+    font-size: 16px;
+    line-height: 25px;
+    color: #606363  ;
+    text-align: justify;
+    overflow: hidden;   
+    transition: all 0.5s ease;
+  }
+  
+  /* Adds a horizontal line between the contents */
+  
+  /* This will make everything better */
+  /* Unhides the content part when active. Sets the height */
+
+.accordion .container-accordion.active .content {
+    height: 150px; 
+  }
+  
+  /* Changes from plus sign to negative sign once active */
+  
+  .accordion .container-accordion.active .label::before {
+    content: '-';
+    font-size: 24px;
+  }
+
+  @media screen and (max-width:576px) {
+    .accordion .container-accordion.active .content {
+        height: 155px; 
+      }
+      
+  }
+    
